@@ -1,0 +1,1 @@
+flink run -c WordCountStreaming target/FlinkBasic-1.0-SNAPSHOT-uber.jar
