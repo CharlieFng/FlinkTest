@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5923c0d-60ff-4d80-9290-951fbbef2750" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/window/session/eventTime/EventSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/window/session/eventTime/SocketProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/window/session/processTime/ProcessSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/window/session/processTime/SocketProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/window/sliding/eventTime/EventSliding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/window/sliding/processTime/ProcessSliding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/window/tumbling/eventTime/EventTumbling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/window/tumbling/eventTime/SocketProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/window/tumbling/processTime/ProcessTumbling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/window/tumbling/processTime/SocketProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/inputs/avg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/windowEventStream.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/scripts/windowProcessStream.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/window/global/GlobalWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CabAnalysis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CabAnalysis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FlinkBasic-1.0-SNAPSHOT-uber.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/FlinkBasic-1.0-SNAPSHOT-uber.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/FlinkBasic-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/FlinkBasic-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CabAnalysis.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CabAnalysis.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -55,7 +36,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="22" />
-          <entry key="java" value="1730" />
+          <entry key="java" value="1755" />
           <entry key="sh" value="85" />
           <entry key="txt" value="117" />
           <entry key="xml" value="40" />
@@ -63,26 +44,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1730" />
+          <entry key="JAVA" value="1755" />
           <entry key="PLAIN_TEXT" value="224" />
           <entry key="XML" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="avg" value="2" />
+          <entry key="avg" value="3" />
           <entry key="class" value="28" />
-          <entry key="java" value="54" />
+          <entry key="java" value="57" />
           <entry key="sh" value="10" />
-          <entry key="txt" value="24" />
+          <entry key="txt" value="25" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="28" />
-          <entry key="JAVA" value="54" />
-          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="JAVA" value="57" />
+          <entry key="PLAIN_TEXT" value="38" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
@@ -91,10 +72,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/window/session/eventTime/SocketProducer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/window/global/GlobalWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="211">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,24 +84,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/outputs/avg_event_session.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/window/tumbling/processTime/SocketProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/window/session/eventTime/EventSession.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="53" column="95" selection-start-line="53" selection-start-column="95" selection-end-line="53" selection-end-column="95" />
+            <state relative-caret-position="235">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="17" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/outputs/global_window_output.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -176,6 +153,7 @@
         <option value="$PROJECT_DIR$/src/main/java/window/session/processTime/SocketProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/window/session/eventTime/SocketProducer.java" />
         <option value="$PROJECT_DIR$/src/main/java/window/session/eventTime/EventSession.java" />
+        <option value="$PROJECT_DIR$/src/main/java/window/global/GlobalWindow.java" />
       </list>
     </option>
   </component>
@@ -193,8 +171,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="23" />
+    <option name="x" value="177" />
+    <option name="y" value="26" />
     <option name="width" value="1580" />
     <option name="height" value="945" />
   </component>
@@ -245,7 +223,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="window" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
+              <item name="tumbling" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlinkBasic" type="b2602c69:ProjectViewProjectNode" />
@@ -254,8 +232,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="window" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-              <item name="eventTime" type="462c0819:PsiDirectoryNode" />
+              <item name="tumbling" type="462c0819:PsiDirectoryNode" />
+              <item name="processTime" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlinkBasic" type="b2602c69:ProjectViewProjectNode" />
@@ -263,6 +241,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FlinkBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Flink" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="inputs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FlinkBasic" type="b2602c69:ProjectViewProjectNode" />
@@ -280,7 +266,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554352538240" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554356317662" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -308,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SocketProducer (3)">
+  <component name="RunManager" selected="Application.SocketProducer">
     <configuration name="ProcessSession" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="window.session.processTime.ProcessSession" />
       <module name="Flink" />
@@ -383,11 +369,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SocketProducer" />
         <item itemvalue="Application.SocketProducer (3)" />
         <item itemvalue="Application.SocketProducer (2)" />
         <item itemvalue="Application.ProcessSession" />
         <item itemvalue="Application.SocketProducer (1)" />
-        <item itemvalue="Application.SocketProducer" />
       </list>
     </recent_temporary>
   </component>
@@ -405,9 +391,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="23" width="1580" height="945" extended-state="0" />
+    <frame x="28" y="23" width="1580" height="945" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1983095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18985696" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -416,13 +403,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32939914" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31184056" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33294255" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="CheckStyle" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.40093786" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3634232" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32939914" />
@@ -440,20 +427,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/resources/inputs/person.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/inputs/location.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/outputs/words-res.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -724,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/inputs/avg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="244" column="4" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/outputs/avg_slide.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -771,16 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/window/tumbling/processTime/SocketProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="17" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -843,13 +799,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/window/session/eventTime/EventSession.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="53" column="95" selection-start-line="53" selection-start-column="95" selection-end-line="53" selection-end-column="95" />
+        <state relative-caret-position="480">
+          <caret line="53" column="140" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="140" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/inputs/avg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="244" column="4" selection-start-line="244" selection-start-column="4" selection-end-line="244" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/window/global/GlobalWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/window/tumbling/processTime/SocketProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="17" selection-end-column="87" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/outputs/global_window_output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

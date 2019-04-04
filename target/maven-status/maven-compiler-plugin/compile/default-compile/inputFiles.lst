@@ -3,6 +3,7 @@
 /Users/fengs4/Desktop/Udemy/Flink/src/main/java/Aggregation.java
 /Users/fengs4/Desktop/Udemy/Flink/src/main/java/window/tumbling/eventTime/EventTumbling.java
 /Users/fengs4/Desktop/Udemy/Flink/src/main/java/window/session/processTime/SocketProducer.java
+/Users/fengs4/Desktop/Udemy/Flink/src/main/java/window/global/GlobalWindow.java
 /Users/fengs4/Desktop/Udemy/Flink/src/main/java/window/session/processTime/ProcessSession.java
 /Users/fengs4/Desktop/Udemy/Flink/src/main/java/window/session/eventTime/EventSession.java
 /Users/fengs4/Desktop/Udemy/Flink/src/main/java/SplitDemo.java
