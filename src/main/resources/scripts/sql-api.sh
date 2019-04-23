@@ -1,0 +1,1 @@
+flink run -c tableAndsql.SqlApiImpl target/FlinkBasic-1.0-SNAPSHOT-uber.jar
